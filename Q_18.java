@@ -3,7 +3,7 @@ import java.util.Queue;
 import java.util.Stack; 
   
 // Java program to reverse a queue 
-public class QueueReverse { 
+public class Q_18{ 
       
     static Queue<Integer> queue; 
   
