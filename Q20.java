@@ -1,4 +1,4 @@
-class LinkedListNode{ 
+class Q20{ 
     Node head; // head of the list 
   
     /* Linked List node */
@@ -41,7 +41,7 @@ class LinkedListNode{
   
     public static void main(String[] args) 
     { 
-        LinkedListNode llist = new LinkedListNode(); 
+        Q20 llist = new Q20(); 
         llist.push(20); 
         llist.push(4); 
         llist.push(15); 
