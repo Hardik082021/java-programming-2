@@ -1,4 +1,4 @@
-class ReverseLinked{ 
+class Q21{ 
   
     static Node head; 
   
@@ -41,7 +41,7 @@ class ReverseLinked{
   
     public static void main(String[] args) 
     { 
-        ReverseLinked list = new ReverseLinked(); 
+        Q21 list = new Q21(); 
         list.head = new Node(85); 
         list.head.next = new Node(15); 
         list.head.next.next = new Node(4); 
