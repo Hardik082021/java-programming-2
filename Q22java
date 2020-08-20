@@ -1,6 +1,6 @@
 import java.util.*; 
   
-class Rank{ 
+class Q22{ 
   
     static void changeArr(int[] input) 
     { 
