@@ -2,12 +2,12 @@
 import java.io.*; 
 import java.util.*; 
 
-class Graphtree
+class Q23
 { 
 	private int V;
 	private LinkedList<Integer> adj[];
 
-	Graphtree(int v) 
+	Q23(int v) 
 	{ 
 		V = v; 
 		adj = new LinkedList[v]; 
@@ -57,7 +57,7 @@ class Graphtree
 	public static void main(String args[]) 
 	{ 
 		// Create a graph given in the above diagram 
-		Graphtree g1 = new Graphtree(5); 
+		Q23 g1 = new Q23(5); 
 		g1.addEdge(1, 0); 
 		g1.addEdge(0, 2); 
 		g1.addEdge(0, 3); 
@@ -67,7 +67,7 @@ class Graphtree
 		else
 			System.out.println("Graph is not Tree"); 
 
-		Graphtree g2 = new Graphtree(5); 
+		Q23 g2 = new Q23(5); 
 		g2.addEdge(1, 0); 
 		g2.addEdge(0, 2); 
 		g2.addEdge(2, 1); 
